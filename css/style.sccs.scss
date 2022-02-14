@@ -158,6 +158,217 @@ header{
   }
 }
 
+
+
+.iti_cautam {
+  .container {
+    display: flex;
+    border-bottom: solid 1px $black;
+    padding-bottom: 77px;
+  }
+
+  .iti_picture {
+    margin-right: 97px;
+    margin-top: 85px;
+
+    img {
+      display: block;
+    }
+  }
+}
+
+  .iti_text {
+    h3 {
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 25px;
+      text-transform: uppercase;
+      color: $black;
+      margin-top: 71px;
+      margin-bottom: 34px;
+    }
+
+    h2 {
+      font-weight: bold;
+      font-size: 72px;
+      line-height: 79px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: $black;
+      margin-bottom: 13px;
+    }
+
+    p {
+      &:first-of-type {
+        font-size: 26px;
+        line-height: 31px;
+        color: $black;
+        margin-bottom: 16px;
+      }
+
+      &:last-of-type {
+        font-size: 18px;
+        line-height: 27px;
+        color: $black;
+        margin-bottom: 64px;
+      }
+    }
+
+    .inscrie {
+      display: inline-block;
+      background: #99FF91;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+      border-radius: 100px;
+      padding: 3px 21px;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: $black;
+      margin-right: 16px;
+    }
+  }
+
+    .mai{
+      display: inline-block;
+      background: #FFFFFF;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+      border-radius: 100px;
+      padding: 3px 21px;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: $black;
+    }
+
+
+
+.tine {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tine_picture {
+    margin-top: 42px;
+
+    img {
+      display: block;
+    }
+  }
+}
+  .contact{
+    display: inline-block;
+    margin-right: 16px;
+    background: #FFE8A3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    padding: 3px 21px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: $black;
+  }
+
+.despre_noi{
+  margin-top: 102px;
+  .container{
+    display: flex;
+    .despre_noi_picture {
+      margin-right: 32px;
+      img {
+        display: block;
+      }
+    }
+  }
+}
+.despre_noi_text{
+  .subtitle{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: $black;
+    margin-bottom: 31px;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: $black;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 27px;
+    color: $black;
+    margin-bottom: 14px;
+  }
+  .contact{
+    margin-top: 25px;
+    background: #B3B5FF;
+  }
+}
+
+
+.serviciile_employer{
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  .block{
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 36px;
+    max-width: 672px;
+    width: 100%;
+    h4{
+      font-weight: bold;
+      font-size: 52px;
+      line-height: 57px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: $black;
+      margin-bottom: 11px;
+    }
+    h5{
+      font-size: 24px;
+      line-height: 29px;
+      color: $black;
+      margin-bottom: 16px;
+    }
+    p{
+      font-size: 18px;
+      line-height: 27px;
+      color: $black;
+    }
+  }
+  .serviciile{
+    padding: 65px 69px 130px 65px;
+    .mai{
+      margin-top: 26px;
+    }
+  }
+  .employer{
+    padding: 68px 65px 81px 65px;
+    .contact{
+      margin-top: 13px;
+    }
+  }
+}
+
+
+
 .cine__text{
   font-family: $main_font;
   font-weight: 700;

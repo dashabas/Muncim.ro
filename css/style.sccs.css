@@ -118,6 +118,162 @@ ul {
     color: #000000;
     font-family: "Roboto", sans-serif; }
 
+.iti_cautam .container {
+  display: flex;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 77px; }
+.iti_cautam .iti_picture {
+  margin-right: 97px;
+  margin-top: 85px; }
+  .iti_cautam .iti_picture img {
+    display: block; }
+
+.iti_text h3 {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 71px;
+  margin-bottom: 34px; }
+.iti_text h2 {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 79px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 13px; }
+.iti_text p:first-of-type {
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+  margin-bottom: 16px; }
+.iti_text p:last-of-type {
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 64px; }
+.iti_text .inscrie {
+  display: inline-block;
+  background: #99FF91;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  padding: 3px 21px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-right: 16px; }
+
+.mai {
+  display: inline-block;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  padding: 3px 21px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000; }
+
+.tine .container {
+  display: flex;
+  justify-content: space-between; }
+.tine .tine_picture {
+  margin-top: 42px; }
+  .tine .tine_picture img {
+    display: block; }
+
+.contact {
+  display: inline-block;
+  margin-right: 16px;
+  background: #FFE8A3;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  padding: 3px 21px;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000; }
+
+.despre_noi {
+  margin-top: 102px; }
+  .despre_noi .container {
+    display: flex; }
+    .despre_noi .container .despre_noi_picture {
+      margin-right: 32px; }
+      .despre_noi .container .despre_noi_picture img {
+        display: block; }
+
+.despre_noi_text .subtitle {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 31px; }
+.despre_noi_text .title {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 79px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 20px; }
+.despre_noi_text p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 14px; }
+.despre_noi_text .contact {
+  margin-top: 25px;
+  background: #B3B5FF; }
+
+.serviciile_employer .container {
+  display: flex;
+  justify-content: space-between; }
+.serviciile_employer .block {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 36px;
+  max-width: 672px;
+  width: 100%; }
+  .serviciile_employer .block h4 {
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 57px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 11px; }
+  .serviciile_employer .block h5 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 16px; }
+  .serviciile_employer .block p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000; }
+.serviciile_employer .serviciile {
+  padding: 65px 69px 130px 65px; }
+  .serviciile_employer .serviciile .mai {
+    margin-top: 26px; }
+.serviciile_employer .employer {
+  padding: 68px 65px 81px 65px; }
+  .serviciile_employer .employer .contact {
+    margin-top: 13px; }
+
 .cine__text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
