@@ -22,25 +22,25 @@ header {
   display: flex;
   justify-content: end; }
 
-ul {
+.nav {
   list-style: none;
   display: flex; }
   @media screen and (max-width: 767px) {
-    ul {
+    .nav {
       display: block; } }
-  ul li {
+  .nav .nav_item {
     margin-left: 12px; }
     @media screen and (max-width: 767px) {
-      ul li {
+      .nav .nav_item {
         margin-left: 0;
         text-align: right;
         margin-bottom: 12px; } }
-    ul li:last-of-type a {
+    .nav .nav_item:last-of-type a {
       background-color: #99FF91; }
-    ul li:hover a, ul li.active a {
+    .nav .nav_item:hover a, .nav .nav_item.active a {
       background-color: #000000;
       color: #FFFFFF; }
-    ul li a {
+    .nav .nav_item a {
       font-family: "Roboto", sans-serif;
       font-weight: bold;
       font-size: 23px;
@@ -70,13 +70,13 @@ ul {
   display: flex;
   justify-content: space-between;
   border-bottom: solid 1px #000000;
-  padding-bottom: 62px; }
+  padding-bottom: 62px;
+  align-items: center; }
   .loc_de .container h3:first-of-type {
     font-size: 24px;
     line-height: 29px;
     text-transform: uppercase;
     color: #000000;
-    margin-top: 100px;
     margin-bottom: 27px;
     font-family: "Roboto", sans-serif; }
   .loc_de .container h1 {
@@ -117,6 +117,110 @@ ul {
     text-transform: uppercase;
     color: #000000;
     font-family: "Roboto", sans-serif; }
+
+.ca_sa .container {
+  display: flex;
+  border-bottom: solid 1px #000000;
+  padding-bottom: 127px; }
+.ca_sa .item {
+  display: flex;
+  max-width: 576px;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 36px;
+  margin-bottom: 16px; }
+  .ca_sa .item img {
+    display: inline-block; }
+  .ca_sa .item .item_text h5 {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 14px;
+    font-family: "Roboto", sans-serif; }
+  .ca_sa .item .item_text p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0; }
+.ca_sa .item_1 {
+  padding: 24px 59px 9px 17px; }
+  .ca_sa .item_1 h5 {
+    margin-top: 9px; }
+  .ca_sa .item_1 .number {
+    margin-right: 22px; }
+.ca_sa .item_2 {
+  padding: 28px 68px 26px 17px; }
+  .ca_sa .item_2 h5 {
+    margin-top: 5px; }
+  .ca_sa .item_2 .number {
+    margin-right: 20px; }
+.ca_sa .item_3 {
+  padding: 25px 50px 23px 17px; }
+  .ca_sa .item_3 h5 {
+    margin-top: 8px; }
+  .ca_sa .item_3 .number {
+    margin-right: 15px; }
+
+.uite_ce {
+  margin-right: 112px; }
+  .uite_ce .subtitle {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-bottom: 36px; }
+  .uite_ce .title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 79px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000000; }
+  .uite_ce .uite_ce_desc {
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 44px; }
+
+.inscrie-te {
+  background: linear-gradient(180deg, #99FF91 0%, #61D1F2 100%);
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 36px;
+  align-self: baseline;
+  margin-top: 65px;
+  padding: 48px 49px 49px; }
+  .inscrie-te h4 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 4px; }
+  .inscrie-te p {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 17px; }
+  .inscrie-te a {
+    background: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 40px 230px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 46px; }
 
 .iti_cautam .container {
   display: flex;
@@ -274,11 +378,76 @@ ul {
   .serviciile_employer .employer .contact {
     margin-top: 13px; }
 
-.cine__text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #000000;
-  font-size: 200px;
-  line-height: 360px; }
+.cine {
+  overflow: hidden; }
+  .cine .cine__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 200px;
+    line-height: 360px; }
+
+footer {
+  border-top: solid 1px #000000;
+  padding-top: 63px;
+  padding-bottom: 63px; }
+  footer .container {
+    display: flex; }
+  footer .nu_uita {
+    margin-right: 196px; }
+    footer .nu_uita h4 {
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 43px;
+      color: #000000;
+      text-transform: uppercase;
+      margin-bottom: 14px; }
+    footer .nu_uita a {
+      display: inline-block;
+      background: #99FF91;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+      border-radius: 100px;
+      padding: 3px 21px;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 18px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000; }
+  footer .nav {
+    display: flex;
+    justify-content: space-between; }
+    footer .nav .menu {
+      list-style: none; }
+      footer .nav .menu .nav_item {
+        margin-bottom: 8px;
+        margin-left: 0; }
+    footer .nav .list {
+      list-style: none; }
+      footer .nav .list li {
+        margin-bottom: 16px; }
+        footer .nav .list li a {
+          font-size: 16px;
+          line-height: 16px;
+          letter-spacing: 0.2px;
+          text-decoration-line: underline;
+          text-transform: uppercase;
+          color: #000000;
+          font-family: "Roboto", sans-serif; }
+  footer .srl_muncim {
+    margin-top: 60px;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Roboto", sans-serif; }
+  footer .toate {
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Roboto", sans-serif; }
 
 /*# sourceMappingURL=style.sccs.css.map */
